@@ -158,7 +158,7 @@
                             <li class="active"><a href="/pencatatanadabdanibadah/index" class="link">
                                     <span>Pencatatan</span></a>
                             </li>
-                            <li><a href="/raporadabdanibadah" class="link">
+                            <li><a href="{{ route('rapor.index') }}" class="link">
                                 <span>Rapor</span></a>
                             </li>
                         </ul>
@@ -276,7 +276,7 @@
                                             <th>Nama Santri</th>
                                             <th>Tanggal Pencatatan</th>
                                             <th>Sholat Lima Waktu</th>
-                                            <th>Kualitas</th>
+                                            <th>Kedatangan</th>
                                             <th>Catatan</th>
                                             <th style="text-align: center;">Modify</th>
                                         </tr>
@@ -288,7 +288,7 @@
                                             <td>{{ $ca->nama }}</td>
                                             <td><?=tgl_indo($ca->tanggalpencatatan); ?></td>
                                             <td>{{ $ca->sholatlimawaktu }}</td>
-                                            <td>{{ $ca->kualitas }}</td>\
+                                            <td>{{ $ca->kualitas }}</td>
                                             <td>{{ $ca->catatan }}</td>
                                             <td class="text-center">
                                                 <a href="/pencatatanadabdanibadah/{{ $ca->id }}/edit">
@@ -309,7 +309,7 @@
                                             <th>Nama Santri</th>
                                             <th>Tanggal Pencatatan</th>
                                             <th>Sholat Lima Waktu</th>
-                                            <th>Kualitas</th>
+                                            <th>Kedatangan</th>
                                             <th>Catatan</th>
                                             <th style="text-align: center;">Modify</th>
                                         </tr>

@@ -17,8 +17,8 @@ class CreatePencatatanadabdanibadahTable extends Migration
             $table->id();
             $table->string('nama');
             $table->date('tanggalpencatatan');
-            $table->enum('sholatlimawaktu',['Iya','Tidak']);
-            $table->enum('kualitas',['Hadir','Tidak Hadir','Terlambat']);
+            $table->enum('sholatlimawaktu',['Shubuh','Dzuhur', 'Ashar', 'Maghrib', 'Isya']);
+            $table->enum('kualitas',['Berjamaah','Tidak Berjamaah','Masbuq']);
             $table->string('catatan');
             $table->timestamps();
         });

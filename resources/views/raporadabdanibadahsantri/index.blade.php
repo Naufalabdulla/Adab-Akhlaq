@@ -252,7 +252,6 @@
                                             <th>Nama Santri</th>
                                             <th>Tahun Ajaran</th>
                                             <th>Persentase Sholat Lima Waktu</th>
-                                            <th>Rata-Rata Kualitas</th>
                                             <th>Catatan</th>
                                         </tr>
                                     </thead>
@@ -262,8 +261,7 @@
                                             <td>{{ ++$key }}</td>
                                             <td>{{ $ca->nama }}</td>
                                             <td>{{ $ca->tahunajaran }}</td>
-                                            <td>{{ $ca->presentasikehadiran }}</td>
-                                            <td>{{ $ca->rataratakualitas }}</td>\
+                                            <td>{{ $ca->rataratakualitas }}</td>
                                             <td>{{ $ca->catatan }}</td>
                                         </tr>
                                         @endforeach
@@ -274,7 +272,6 @@
                                             <th>Nama Santri</th>
                                             <th>Tahun Ajaran</th>
                                             <th>Persentase Sholat Lima Waktu</th>
-                                            <th>Rata-Rata Kualitas</th>
                                             <th>Catatan</th>
                                         </tr>
                                     </tfoot>

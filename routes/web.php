@@ -119,8 +119,10 @@ Route::delete('/pencatatanadabdanibadah/{id}', [App\Http\Controllers\CatatanAdab
 
 // ----------------------------  Rapor Adab dan Ibadah  ----------------------------------------------//
 
-Route::get('/raporadabdanibadah', [App\Http\Controllers\RaporAdabController::class, 'index'])->middleware('auth');
-Route::get('/raporadabdanibadah/create', [App\Http\Controllers\RaporAdabController::class, 'create'])->middleware('auth');
+// Route::get('/raporadabdanibadah', [App\Http\Controllers\RaporAdabController::class, 'index'])->middleware('auth');
+// Route::get('/raporadabdanibadah/create', [App\Http\Controllers\RaporAdabController::class, 'create'])->middleware('auth');
+// Route::post('/raporadabdanibadah/store', [App\Http\Controllers\RaporAdabController::class, 'store'])->middleware('auth');
+Route::resource('rapor', RaporAdabController::class);
 
 
 

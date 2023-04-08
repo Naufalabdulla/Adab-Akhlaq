@@ -17,7 +17,6 @@ class CreateRaporAdabsTable extends Migration
             $table->id();
             $table->string('nama');
             $table->integer('tahunajaran');
-            $table->string('presentasikehadiran');
             $table->string('rataratakualitas');
             $table->string('catatan');
             $table->timestamps();

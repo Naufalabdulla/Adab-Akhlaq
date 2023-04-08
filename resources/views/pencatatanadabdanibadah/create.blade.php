@@ -280,9 +280,12 @@
                                                     <div class="position-relative">
                                                         <select class="form-select mb-3 @error('sholatlimawaktu') is-invalid @enderror" aria-label="Default select example" 
                                                         id="first-name-icon" name="sholatlimawaktu">
-                                                            <option selected="">Iya atau Tidak</option>
-                                                            <option value="Iya">Iya</option>
-                                                            <option value="Tidak">Tidak</option>
+                                                            <option selected="">...</option>
+                                                            <option value="Shubuh">Shubuh</option>
+                                                            <option value="Dzuhur">Dzuhur</option>
+                                                            <option value="Ashar">Ashar</option>
+                                                            <option value="Maghrib">Maghrib</option>
+                                                            <option value="Isya">Isya</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -296,10 +299,10 @@
                                                     <div class="position-relative">
                                                         <select class="form-select mb-3 @error('sholatlimawaktu') is-invalid @enderror" aria-label="Default select example" 
                                                         id="first-name-icon" name="kualitas">
-                                                            <option selected="">Hadir, Tidak Hadir, Terlambat</option>
-                                                            <option value="Hadir">Hadir</option>
-                                                            <option value="Tidak Hadir">Tidak Hadir</option>
-                                                            <option value="Terlambat">Terlambat</option>
+                                                            <option selected="">...</option>
+                                                            <option value="Berjamaah">Berjama'ah</option>
+                                                            <option value="Tidak Berjamaah">Tidak Berjama'ah</option>
+                                                            <option value="Masbuq">Masbuq</option>
                                                         </select>
                                                     </div>
                                                 </div>

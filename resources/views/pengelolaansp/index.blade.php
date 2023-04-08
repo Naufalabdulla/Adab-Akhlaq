@@ -250,7 +250,7 @@
                                         <tr>
                                             <th>ID</th>
                                             <th>Nama Lengkap</th>
-                                            <th>Adab Akhlak</th>
+                                            <th>Jenis Pelanggaran</th>
                                             <th>Status SP</th>
                                             <th style="text-align: center;">Modify</th>
                                         </tr>

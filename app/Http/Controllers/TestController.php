@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\RaporAdab;
-use App\Models\CA;
+use App\Models\Test;
 use Illuminate\Http\Request;
 
-class RaporAdabController extends Controller
+class TestController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +14,7 @@ class RaporAdabController extends Controller
      */
     public function index()
     {
-        $raporadab = RaporAdab::all();
-
-        return view('raporadabdanibadahsantri.index',compact('raporadab'));
+        //
     }
 
     /**
@@ -27,7 +24,7 @@ class RaporAdabController extends Controller
      */
     public function create()
     {
-        return view('raporadabdanibadahsantri.create');
+        //
     }
 
     /**
@@ -44,10 +41,10 @@ class RaporAdabController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\RaporAdab  $raporAdab
+     * @param  \App\Models\Test  $test
      * @return \Illuminate\Http\Response
      */
-    public function show(RaporAdab $raporAdab)
+    public function show(Test $test)
     {
         //
     }
@@ -55,10 +52,10 @@ class RaporAdabController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\RaporAdab  $raporAdab
+     * @param  \App\Models\Test  $test
      * @return \Illuminate\Http\Response
      */
-    public function edit(RaporAdab $raporAdab)
+    public function edit(Test $test)
     {
         //
     }
@@ -67,10 +64,10 @@ class RaporAdabController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\RaporAdab  $raporAdab
+     * @param  \App\Models\Test  $test
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, RaporAdab $raporAdab)
+    public function update(Request $request, Test $test)
     {
         //
     }
@@ -78,10 +75,10 @@ class RaporAdabController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\RaporAdab  $raporAdab
+     * @param  \App\Models\Test  $test
      * @return \Illuminate\Http\Response
      */
-    public function destroy(RaporAdab $raporAdab)
+    public function destroy(Test $test)
     {
         //
     }
